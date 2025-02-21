@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class PostsViewController {
     @RequestMapping(path = "/", method = RequestMethod.GET)
     public String list(Model model) {
-        model.addAttribute("appName", "Сентябрь горит");
+        model.addAttribute("appName", "Моё супер приложение");
         return "list";
     }
 
